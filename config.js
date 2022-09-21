@@ -14,7 +14,7 @@ if(!process.env.DB_URL) {
 const ADMINS = process.env.ADMINS || ''
 const BOT_TOKEN = process.env.BOT_TOKEN || ''
 const DB_URL = process.env.DB_URL || ''
-const WORKER_URL = process.env.WORKER_URL || 'https://polished-sky-83bc.atozpricetracker68.workers.dev/'
+const WORKER_URL = process.env.WORKER_URL || ''
 const API_KEY = process.env.API_KEY || '' // Generate any API Key and pass it when accessing the API.
 const LIMIT = Number(process.env.LIMIT) // Maximum number of products can be added by a user at a time.
  
