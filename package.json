@@ -1,0 +1,38 @@
+{
+  "name": "price-tracker",
+  "version": "1.0.0",
+  "description": "A telegram bot which can track prices for amazon and flipkart products. (Soon more)",
+  "main": "bot.js",
+  "scripts": {
+    "test": " nodemon bot.js --watch ./ --ignore *.json",
+    "start": " node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AffanTheBest/price-tracker.git"
+  },
+  "type": "module",
+  "keywords": [
+    "price-tracker",
+    "amazon",
+    "flipkart",
+    "ecommerce",
+    "tracker",
+    "telegram",
+    "bot"
+  ],
+  "author": "https://github.com/AffanTheBest",
+  "license": "https://github.com/AffanTheBest/price-tracker/blob/main/LICENSE",
+  "bugs": {
+    "url": "https://github.com/AffanTheBest/price-tracker/issues"
+  },
+  "homepage": "https://github.com/AffanTheBest/price-tracker#readme",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "grammy": "^1.5.4",
+    "mongodb": "^4.9.0"
+  }
+}
